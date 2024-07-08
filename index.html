@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        background-color: antiquewhite;
+    }
+    body::before{
+        content:"";
+        width:100%;
+        height:100%;
+        position: fixed;
+        background-image: url(/image/cake-2610754_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        filter: blur(10px);
+        z-index: -1;
+    }
+    header{
+        font-weight: bolder;
+        background-color: rgba(152, 105, 105, 0.49);
+        text-align: center;
+        font-size:50px;
+       
+    }
+    .main{
+        margin: 60px 30px 50px 30px;
+        background-color: rgba(0, 0, 0, 0.474);
+        color: aliceblue;
+        display:flex;
+        border: 3px solid black;
+        border-radius: 20px;
+    }
+    #pic1{
+        margin:30px 30px 30px 30px;
+        height:300px;
+        width:500px;
+    }
+    #detail{
+        margin:60px 10px 10px 10px;
+        font-family:'Times New Roman', Times, serif;
+        font-size: x-large;
+    }
+    .ingerdients{
+        column-count: 3;
+        color: aliceblue;
+        font-weight:bold;
+        font-size:20px;
+        padding-bottom: 10px;
+    }
+    .count1{
+        margin: 30px 40px 50px 30px;
+        background-color: rgba(0, 0, 0, 0.474);
+        border: 3px solid black;
+        border-radius: 20px;
+    }
+    #title1{
+        margin:20px 10px 0px 25px;
+        color: rgb(255, 210, 181);
+    }
+    .count2{
+        margin: 30px 40px 30px 30px;
+        background-color: rgba(0, 0, 0, 0.474);
+        border: 3px solid black;
+        border-radius: 20px;
+    }
+    .title2{
+        margin:20px 10px 0px 25px;
+        color: rgb(255, 210, 181);
+    }
+    .process{
+        font-weight:bold;
+        color: aliceblue;
+        font-size:20px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+</style>
+<body>
+    <header>Lasagne alla Bolognese</header>
+    <div class="main">
+        <img id="pic1" src="/image/lasagne-1178514_960_720.jpg" alt="">
+        <p id="detail"><b> Alla Bolognese is a popular dish all over the world, featuring multiple layers of beef, tomato, and onion bolognese sauce, bechamel sauce, and lasagne pasta sheets until the cheesy top. This is a rich and warming dish that goes perfectly with a bold red Italian wine.
+            This dish was invented in the city of Bologna in the Emilia region, and it has risen to immense popularity. It has become somewhat of an Italian institution, and many people consider it to represent the nation.</b></p>
+    </div>
+    <div class="count1">
+    <h1 id="title1">INGERDIENTS</h1>
+    <div class="ingerdients">
+        <ul>
+            <li>cups whole milk</li> 
+            <li>1/4 cup unsalted butter</li> 
+            <li>1/4 cup all-purpose flour</li><br>
+            <li>4 ounces ground Italian sausage</li> 
+            <li>2 ounces diced pancetta</li> 
+            <li>4 tablespoons unsalted butter</li><br> 
+            <li>1 medium Spanish onion or yellow onion</li>
+            <li>11 ounces ground beef</li> 
+            <li> 4 ounces ground pork</li> 
+        <ul>
+    </div>
+    </div>
+    <div class="count2">
+        <h1 class="title2">INSTRUCTION</h1>
+        <div class="process">
+            <ol>
+                <li>Prepare the Bolognese Meat Sauce</li>
+                <li>Make the Béchamel Sauce</li>
+                <li>Prepare the Lasagna</li>
+                <li>Cook the lasagna noodles:</li>
+                <li>Layer the lasagna: </li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
